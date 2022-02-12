@@ -8,7 +8,7 @@
             {
                 try
                 {
-                    systemControl.Shutdown();
+                    systemControl.ShutdownForced();
                 }
                 catch (Exception ex)
                 {

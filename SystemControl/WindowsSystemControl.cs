@@ -7,9 +7,19 @@ namespace PcControl.SystemControl
         //https://stackoverflow.com/questions/102567/how-to-shut-down-the-computer-from-c-sharp
         public void Shutdown()
         {
-            var psi = new ProcessStartInfo("shutdown", "/s /t 0");
-            psi.CreateNoWindow = true;
-            psi.UseShellExecute = false;
+            ExecuteProcess("Shutdown", "/s /t 0", true, false);
+        }
+
+        public void ShutdownForce()
+        {
+            ExecuteProcess("Shutdown", "/s /t /f 0", true, false);
+        }
+
+        private void ExecuteProcess(string command, string options, bool createNoWindow, bool useShellExecute)
+        {
+            var psi = new ProcessStartInfo(command, options);
+            psi.CreateNoWindow = createNoWindow;
+            psi.UseShellExecute = useShellExecute;
             Process.Start(psi);
         }
     }
