@@ -10,7 +10,7 @@ namespace PcControl.SystemControl
             ExecuteProcess("Shutdown", "/s /t 0", true, false);
         }
 
-        public void ShutdownForce()
+        public void ShutdownForced()
         {
             ExecuteProcess("Shutdown", "/s /t /f 0", true, false);
         }
