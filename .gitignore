@@ -398,3 +398,5 @@ FodyWeavers.xsd
 *.sln.iml
 v17
 bin
+obj
+/.vs
