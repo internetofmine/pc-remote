@@ -26,3 +26,4 @@ C:\Users\meris\Source\Repos\PcControl\obj\Debug\net6.0-windows\PcControl.dll
 C:\Users\meris\Source\Repos\PcControl\obj\Debug\net6.0-windows\ref\PcControl.dll
 C:\Users\meris\Source\Repos\PcControl\obj\Debug\net6.0-windows\PcControl.pdb
 C:\Users\meris\Source\Repos\PcControl\obj\Debug\net6.0-windows\PcControl.genruntimeconfig.cache
+C:\Users\meris\Source\Repos\PcControl\obj\Debug\net6.0-windows\PcControl.csproj.AssemblyReference.cache
